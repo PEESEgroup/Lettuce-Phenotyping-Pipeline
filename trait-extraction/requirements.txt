@@ -1,0 +1,9 @@
+numpy
+opencv-python
+scipy
+matplotlib
+open3d
+plantcv
+segment-anything
+torch
+imageio

@@ -2,13 +2,13 @@
 This repository contains the code and data used for extracting traits, capturing images, and analyzing the growth of lettuce cultivars (e.g., Rex and Rouxai). 
 
 ## Overview
-`Trait Extraction Pipeline/` contains scripts to process image datasets (RGB and depth pairs) and extract key plant traits, including height, area, and volume, exporting results in CSV format.
+`Trait_Extraction/` contains scripts to process image datasets (RGB and depth pairs) and extract key plant traits, including height, area, and volume, exporting results in CSV format.
 
-`Growth Curves/` contains code to compute and analyze growth curves for 20 REX and 20 ROUXAI samples based on height, area, and volume metrics, along with diurnal variation plots and detailed growth pattern analyses.
+`Growth_Curves/` contains code to compute and analyze growth curves for 20 REX and 20 ROUXAI samples based on height, area, and volume metrics, along with diurnal variation plots and detailed growth pattern analyses.
 
-`Fresh Weight Analysis/` contains scripts to analyze fresh weight data using machine learning models, generating scatter plots of predicted vs observed values for various algorithms.
+`Fresh_Weight_Analysis/` contains scripts to analyze fresh weight data using machine learning models, generating scatter plots of predicted vs observed values for various algorithms.
 
-`Sample Images/` contains example image datasets for testing the trait extraction pipeline.
+`Sample_Images/` contains example image datasets for testing the trait extraction pipeline.
 
 ## System Requirements
 ### Operating System

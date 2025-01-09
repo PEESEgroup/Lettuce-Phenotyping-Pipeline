@@ -28,17 +28,13 @@ The repository requires the following Python packages:
 Detailed examples for using the provided scripts are included:
 * **Trait Extraction Pipeline**:
   * Run `trait_extraction.py` to process image datasets and extract lettuce widths, maximum depth and minimum depth value.
-  * Use `compute_traits.py` to compute height, area, and volume traits and save the output to a CSV file.
+  * Use `compute_traits.ipynb` to compute height, area, and volume traits and save the output to a CSV file.
 * **Growth Curves Analysis**:
-  * Run `growth_curves.py` to visualize growth curves of the 20 REX and ROUXAI samples over time.
-  * Use `diurnal.py` for visualizing diurnal variations in traits.
-  * Use `growth_patterns_analysis.py` for advanced analysis, including:
-    * Individual growth patterns with mean overlay.
-    * Histogram of Pearson correlation coefficients.
-    * Boxplot of differences from the mean pattern.
-    * Line plot of coefficient of variation across time periods.
+  * Run `growth_curves.ipynb` to visualize growth curves of the 20 REX and ROUXAI samples over time.
+  * Use `diurnal.ipynb` for visualizing diurnal variations in traits.
+  * Use `growth_patterns_analysis.ipynb` for advanced consistency analysis
 * **Fresh Weight Analysis**:
-  * Run `fresh_weight_analysis.py` to generate scatter plots for different machine learning models:
+  * Run `fresh_weight_analysis.ipynb` to generate scatter plots for different machine learning models:
     * `Decision Tree Model`
     * `Random Forest Model`
     * `Gradient Boosting Regressor Model`

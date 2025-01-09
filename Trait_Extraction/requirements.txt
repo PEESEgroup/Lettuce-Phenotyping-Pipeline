@@ -1,1 +1,7 @@
-
+numpy
+imageio
+opencv-python
+pandas
+torch
+segment_anything 
+tqdm

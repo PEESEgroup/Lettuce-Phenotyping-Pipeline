@@ -44,9 +44,9 @@ Detailed examples for using the provided scripts are included:
     * `Gaussian Process Regressor Model`
 
 ## Instructions for Use
-1) Place your dataset in the appropriate directory (e.g.,⁣Sample Images/).
+1) Place your dataset in the appropriate directory (e.g. `⁣Sample Images/`).
 2) Run the relevant scripts to process the data or analyze traits.
-3) Review the generated outputs (e.g., CSV files, plots) in the designated folders
+3) Review the generated outputs (e.g., CSV files, plots) in the designated folders or in the jupyter notebook. 
 
 **Note:** Ensure proper configuration of the environment as per system and package requirements to avoid errors.
 

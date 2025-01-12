@@ -8,7 +8,10 @@ This repository contains the code and data used for extracting traits, capturing
 
 `Fresh_Weight_Analysis/` contains scripts to analyze fresh weight data using machine learning models, generating scatter plots of predicted vs observed values for various algorithms.
 
-`Sample_Images/` contains example image datasets for testing the trait extraction pipeline.
+`Sample_Images/` contains example image datasets for testing the trait extraction pipeline. 
+
+**The complete image dataset used in this project is publicly available on Zenodo: [RGBD_DATA](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth)**.
+
 
 ## System Requirements
 ### Operating System

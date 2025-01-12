@@ -10,7 +10,7 @@ This repository contains the code and data used for extracting traits, capturing
 
 `Sample_Images/` contains example image datasets for testing the trait extraction pipeline. 
 
-**The complete image dataset used in this project is publicly available on Zenodo: [RGBD_DATA](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth)**.
+**The complete image dataset used in this project is publicly available on Zenodo: [RGBD_DATA](https://zenodo.org/records/14635169?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImZlZDgyZjE4LTA4ZWYtNGY5ZS1hYTc1LWM4ODI2YWVhM2RhYiIsImRhdGEiOnt9LCJyYW5kb20iOiJlZTJkZDBlOGFlYTY1YTZlODFmMTczZDNhMmI4Y2UyYiJ9.SCAFf-zoOMV9RpX4HbqEUFhDFY6GCuzOT72SycuOGTuHe-rPUdZ7ZCDELwNmKsAb_xi3Dx50OeGYsqtbtpHgmQ)**.
 
 
 ## System Requirements

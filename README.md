@@ -30,9 +30,9 @@ The repository requires the following Python packages:
 ## Demo
 Detailed examples for using the provided scripts are included:
 * **Trait Extraction Pipeline**:
-  * Run `trait_extraction.py` to process image datasets and extract lettuce widths, maximum depth and minimum depth value.
-    *  The `trait_extraction.py` script requires the SAM model of type `vit_h`.
-    * You can download it from the following link: [SAM Model (vit_h)](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth).
+  * Run `trait_extraction_SAM.py/trait_extraction_FastSAM.py` to process image datasets and extract lettuce widths, maximum depth and minimum depth value.
+    * The `trait_extraction_SAM.py` script requires the SAM model of type `vit_h`. You can download it from the following link: [SAM Model (vit_h)](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth).
+    * The `trait_extraction_FastSAM.py` script requires the FastSAM model of type `FastSAM-s`. You can download it from the following link: [FastSAM Model (FastSAM-s)](https://github.com/ultralytics/assets/releases/download/v8.2.0/FastSAM-s.pt).
     * Make sure the model file is placed in the appropriate directory and correctly referenced in the script.
   * Use `compute_traits.ipynb` to compute height, area, and volume traits and save the output to a CSV file.
 * **Growth Curves Analysis**:

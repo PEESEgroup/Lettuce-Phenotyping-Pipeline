@@ -1,1 +1,1 @@
-`fresh_weight_analysis.ipynb`: This notebook performs fresh weight analysis using various ML models by evaluating the relationship between predicted and observed fresh weight and generates scatter plots. 
+`fresh_weight_analysis.ipynb`: This notebook performs fresh weight analysis using various ML models by evaluating the relationship between predicted and observed fresh weight and generates scatter plots. The data used in this notebook is located in the `Data` folder above.

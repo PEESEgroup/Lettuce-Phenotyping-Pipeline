@@ -48,14 +48,13 @@ Detailed examples for using the provided scripts are included:
 
 ## Instructions for Use
 1) Place your dataset in the appropriate directory (e.g. `⁣Sample Images/`).
-2) Run the relevant scripts to process the data or analyze traits.
+2) Run the relevant scripts to process the image data or analyze traits.
 3) Review the generated outputs (e.g., CSV files, plots) in the designated folders or in the jupyter notebook. 
 
 **Note:** Ensure proper configuration of the environment as per system and package requirements to avoid errors.
 
 ## Citation
-`@article{,
-author = {Your Name and Collaborators},
+`@article{, author = {Akash Ajagekar, Yu Jiang, Fengqi You},
 title = {Computer vision and IoT based plant phenotyping and growth monitoring with 3D Point Clouds},
 journal = {TBD},
 volume = {},

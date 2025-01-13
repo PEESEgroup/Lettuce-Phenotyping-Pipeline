@@ -10,8 +10,6 @@ This repository contains the code and data used for extracting traits, capturing
 
 `Fresh_Weight_Analysis/` contains scripts to analyze fresh weight data using machine learning models, generating scatter plots of predicted vs observed values for various algorithms.
 
-`Sample_Images/` contains example image datasets for testing the trait extraction pipelines. 
-
 
 ## System Requirements
 ### Operating System

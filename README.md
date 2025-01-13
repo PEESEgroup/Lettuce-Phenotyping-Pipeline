@@ -2,6 +2,8 @@
 This repository contains the code and data used for extracting traits, capturing images, and analyzing the growth of lettuce cultivars (e.g., Rex and Rouxai). 
 
 ## Overview
+`Data_capture/` contains script, which is used to interface with imaging hardware and capture synchronized RGB and depth images of lettuce samples. 
+
 `Trait_Extraction/` contains scripts to process image datasets (RGB and depth pairs) and extract key plant traits, including height, area, and volume, exporting results in CSV format.
 
 `Growth_Curves/` contains code to compute and analyze growth curves for 20 REX and 20 ROUXAI samples based on height, area, and volume metrics, along with diurnal variation plots and detailed growth pattern analyses.
@@ -29,6 +31,8 @@ The repository requires the following Python packages:
 
 ## Demo
 Detailed examples for using the provided scripts are included:
+* **Collecting Images**:
+  * Use `data_capture.py` (located in the `Data_capture` folder) to collect RGB and Depth images of lettuce samples. Captured images are automatically saved with filenames including the date and time of capture (e.g., `image_2024-03-27 14_19_56.png`).
 * **Trait Extraction Pipeline**:
   * Run `trait_extraction_SAM.py/trait_extraction_FastSAM.py` to process image datasets and extract lettuce widths, maximum depth and minimum depth value.
     * The `trait_extraction_SAM.py` script requires the SAM model of type `vit_h`. You can download it from the following link: [SAM Model (vit_h)](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth).

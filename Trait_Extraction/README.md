@@ -1,4 +1,6 @@
-`trait_extraction.py`: This script processes RGB and depth image datasets to extract geometric parameters, including length, width, max_z (distance from camera to the bottom of the lettuce), and min_z (distance from camera to the top of the lettuce). 
+`trait_extraction_SAM.py`: This script processes RGB and depth image datasets to extract geometric parameters, including length, width, max_z (distance from camera to the bottom of the lettuce), and min_z (distance from camera to the top of the lettuce) using `SAM`. 
+
+`trait_extraction_FastSAM.py`: This script processes RGB and depth image datasets to extract geometric parameters, including length, width, max_z (distance from camera to the bottom of the lettuce), and min_z (distance from camera to the top of the lettuce) using `FastSAM`.
 
 **Complete Image data is available at [RGBD_DATA](https://zenodo.org/records/14635169?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImZlZDgyZjE4LTA4ZWYtNGY5ZS1hYTc1LWM4ODI2YWVhM2RhYiIsImRhdGEiOnt9LCJyYW5kb20iOiJlZTJkZDBlOGFlYTY1YTZlODFmMTczZDNhMmI4Y2UyYiJ9.SCAFf-zoOMV9RpX4HbqEUFhDFY6GCuzOT72SycuOGTuHe-rPUdZ7ZCDELwNmKsAb_xi3Dx50OeGYsqtbtpHgmQ)**.
 

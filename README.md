@@ -10,9 +10,7 @@ This repository contains the code and data used for extracting traits, capturing
 
 `Fresh_Weight_Analysis/` contains scripts to analyze fresh weight data using machine learning models, generating scatter plots of predicted vs observed values for various algorithms.
 
-`Sample_Images/` contains example image datasets for testing the trait extraction pipelines in `Trait_Extraction/`. 
-
-**The complete image dataset used in this project is publicly available on Zenodo: [RGBD_DATA](https://zenodo.org/records/14635169?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImZlZDgyZjE4LTA4ZWYtNGY5ZS1hYTc1LWM4ODI2YWVhM2RhYiIsImRhdGEiOnt9LCJyYW5kb20iOiJlZTJkZDBlOGFlYTY1YTZlODFmMTczZDNhMmI4Y2UyYiJ9.SCAFf-zoOMV9RpX4HbqEUFhDFY6GCuzOT72SycuOGTuHe-rPUdZ7ZCDELwNmKsAb_xi3Dx50OeGYsqtbtpHgmQ)**.
+`Sample_Images/` contains example image datasets for testing the trait extraction pipelines. 
 
 
 ## System Requirements
@@ -33,6 +31,9 @@ The repository requires the following Python packages:
 Detailed examples for using the provided scripts are included:
 * **Collecting Images**:
   * Use `data_capture.py` (located in the `Data_capture` folder) to collect RGB and Depth images of lettuce samples. Captured images are automatically saved with filenames including the date and time of capture (e.g., `image_2024-03-27 14_19_56.png`).
+ 
+**Note: To run this script, you need an imaging hardware system comprised of an Intel RealSense D435 camera integrated with a Raspberry Pi. The script should be executed on this system to collect images. If you wish to create this system, please follow the steps mentioned in this [link](https://github.com/datasith/Ai_Demos_RPi/wiki/Raspberry-Pi-4-and-Intel-RealSense-D435). Alternatively, sample data is available in the `/Trait_Extraction/Sample_Images` folder, and the complete dataset used in this project is publicly available on Zenodo: [RGBD_DATA](https://zenodo.org/records/14635169?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImZlZDgyZjE4LTA4ZWYtNGY5ZS1hYTc1LWM4ODI2YWVhM2RhYiIsImRhdGEiOnt9LCJyYW5kb20iOiJlZTJkZDBlOGFlYTY1YTZlODFmMTczZDNhMmI4Y2UyYiJ9.SCAFf-zoOMV9RpX4HbqEUFhDFY6GCuzOT72SycuOGTuHe-rPUdZ7ZCDELwNmKsAb_xi3Dx50OeGYsqtbtpHgmQ)**.
+
 * **Trait Extraction Pipeline**:
   * Run `trait_extraction_SAM.py/trait_extraction_FastSAM.py` to process image datasets and extract lettuce widths, maximum depth and minimum depth value.
     * The `trait_extraction_SAM.py` script requires the SAM model of type `vit_h`. You can download it from the following link: [SAM Model (vit_h)](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth).
@@ -67,12 +68,3 @@ pages = {},
 doi = {},
 abstract = {}
 }`
-
-
- 
-
- 
-
-
-
-

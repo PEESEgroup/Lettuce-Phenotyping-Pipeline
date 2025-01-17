@@ -3,3 +3,5 @@
 `diurnal.ipynb`: This notebook analyzes diurnal variations in height for REX and ROUXAI lettuce across different growth stages.
 
 `growth_patterns_analysis.ipynb`: This notebook provides a comprehensive overview of diurnal variations and consistency analysis for all 20 samples of REX and ROUXAI lettuce cultivars.
+
+**Note: The datasets required to run the above notebooks is in `/Trait_Extraction/Results_CSV`**

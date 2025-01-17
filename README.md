@@ -18,12 +18,17 @@ This repository is platform-independent and has been tested on Windows operating
 The scripts can run on standard computer systems. GPU support can be used via PyTorch for enhanced performance in certain computations.
 ### Package Requirements
 The repository requires the following Python packages:
-* `python 3.9.7`
-* `pandas 2.0.0`
-* `pytorch 2.0.0`
+* `python`
+* `pandas 2.1.4`
+* `torch 2.2.0`
 * `numpy 1.24.2`
-* `matplotlib 3.7.2`
-* `scikit-learn 1.3.0`
+* `matplotlib 3.8.2`
+* `scikit-learn 1.3.2`
+* `scipy 1.12.0`
+* `seaborn 0.13.2`
+* `ultralytics 8.3.59`
+* `imageio 2.33.1`
+* `opencv-python 4.9.0.80`
 
 ## Demo
 Detailed examples for using the provided scripts are included:

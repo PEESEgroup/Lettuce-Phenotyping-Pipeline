@@ -10,11 +10,11 @@ from plantcv.plantcv._helpers import _object_composition
 from fastsam import FastSAM, FastSAMPrompt
 from tqdm import tqdm
 
-rgb_folder = r"SAMPLE_RGB" # Replace with your file path
-depth_folder = r"SAMPLE_DEPTH" # Replace with your file path
+rgb_folder = r"Sample_Images/RGB_Images_Sample" # Replace with your file path 
+depth_folder = r"Sample_Images/DEPTH_Images_Sample" # Replace with your file path
 out_dir = r"output" # Replace with your file path
 
-fast_sam_checkpoint = r"/FastSAM-s.pt" # Replace with your file path
+fast_sam_checkpoint = r"FastSAM-s.pt" # Replace with your file path
 
 fx_d, fy_d, cx_d, cy_d = 388.022, 388.022, 321.261, 229.877
 

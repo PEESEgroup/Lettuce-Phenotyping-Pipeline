@@ -10,11 +10,11 @@ from plantcv.plantcv._helpers import _object_composition
 from segment_anything import sam_model_registry, SamPredictor
 from tqdm import tqdm
 
-rgb_folder = r"SAMPLE_RGB" # Replace with your file path
-depth_folder = r"SAMPLE_DEPTH" # Replace with your file path
+rgb_folder = r"Sample_Images/RGB_Images_Sample" # Replace with your file path
+depth_folder = r"Sample_Images/DEPTH_Images_Sample" # Replace with your file path
 out_dir = r"output" # Replace with your file path
 
-sam_checkpoint = r"/sam_vit_h_4b8939.pth" # Replace with your file path
+sam_checkpoint = r"sam_vit_h_4b8939.pth" # Replace with your file path
 model_type = "vit_h"
 
 fx_d, fy_d, cx_d, cy_d = 388.022, 388.022, 321.261, 229.877
